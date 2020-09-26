@@ -43,6 +43,13 @@ h3 {
     font-weight: bold;
 }
 
+a,
+a:active,
+a:visited {
+    color: var(--purple);
+}
+
+
 .btn {
     background: var(--light-purple);
     padding: 0.2em 0.5em;
