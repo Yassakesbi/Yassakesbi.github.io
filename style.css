@@ -27,7 +27,7 @@ body {
     padding: 3rem;
     font-size: 1.6em;
     box-sizing: border-box;
-    padding: 3em 5em;
+    padding: 3em 10em;
 }
 
 .serif {
@@ -232,6 +232,14 @@ a:visited {
 
 /* RESPONSIVE  */
 
+@media screen and (max-width:1500px) {
+
+    body {
+        padding: 3em 5em;
+    }
+}
+
+
 @media screen and (max-width:760px) {
 
     body {
@@ -239,16 +247,18 @@ a:visited {
     }
 }
 
-@media screen and (max-width:510px) {
+@media screen and (max-width:650px) {
 
 
     .header {
         display: block;
     }
 
-    .header .nav {
+    .header .nav li {
         margin-top: 1em;
+
     }
+
 
     .header .nav li a {
         margin-right: 2em;
