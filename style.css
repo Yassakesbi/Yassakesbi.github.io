@@ -1,0 +1,146 @@
+:root {
+    --purple: #566FFF;
+    --green: #38E97A;
+    --red: #F24579;
+    --black: #494E4E;
+    --grey: #828686;
+}
+
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    font-family: "SF Pro Text", sans-serif;
+    line-height: 1.7;
+    color: var(--black);
+    padding: 3rem;
+    font-size: 1.6em;
+    box-sizing: border-box;
+    padding: 3em 5em;
+}
+
+.serif {
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.btn {
+    border: 1px solid var(--purple);
+    padding: 0.2em 0.5em;
+    border-radius: 0.1em;
+    color: var(--purple);
+    transition: all ease-in-out 0.2s;
+    margin: 0px 0.2em;
+}
+
+.btn:hover {
+    background: var(--purple);
+    color: white;
+    cursor: pointer;
+}
+
+.btn img {
+    width: 1em;
+    padding: 0;
+}
+
+.text-purple {
+    color: var(--purple);
+}
+
+.text-green {
+    color: var(--green);
+}
+
+.text-red {
+    color: var(--red);
+}
+
+
+/* HEADER    */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .nav a {
+    margin-right: 4em;
+}
+
+.hero {
+    margin-top: 5em;
+}
+
+
+.hero .main {
+    font-size: 2em;
+    font-size: 100;
+}
+
+.hero .main span {
+    font-weight: bold;
+}
+
+.hero .tagline {
+    font-size: 1.3em;
+    color: var(--grey);
+    margin-bottom: 1em;
+}
+
+/* SKILL */
+.skills {
+    margin-top: 5em;
+}
+
+
+.skills ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills li {
+    width: 30%;
+}
+
+.skills img {
+    width: 2.5em;
+    margin: 1.5em 0em 0.2em 0em;
+}
+
+.skill .title {
+    color: var(--purple);
+}
+
+/* WORKS */
+.works {
+    margin-top: 5em;
+}
+
+.works ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.works li {
+    width: 30%;
+}
