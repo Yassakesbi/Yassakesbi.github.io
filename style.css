@@ -69,8 +69,7 @@ h3 {
 }
 
 .popup {
-    background: var(--black);
-    color: white;
+    color: var(--purple);
     border-radius: 5px;
     padding: 0.8em;
     text-align: center;
@@ -78,7 +77,7 @@ h3 {
     left: 11em;
     margin-top: .5em;
     font-size: 0.8em;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 5%);
 }
 
 .popup a {
@@ -87,6 +86,7 @@ h3 {
     padding: 0.2em 0.5em;
     margin-top: 0.5em;
     display: block;
+    z-index: 999999;
 }
 
 .hidden {
