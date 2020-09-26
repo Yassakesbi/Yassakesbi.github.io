@@ -128,7 +128,7 @@
     </div>
 
     <div class="footer">
-        <p>© Yassine Akesbi - made in Agadir, today is <span class="day"></span> with <span class="temp"></span> °
+        <p>© Yassine Akesbi - made with ❤️ in Agadir.</span>
         </p>
     </div>
 
@@ -139,21 +139,6 @@
             autoStart: true,
             loop: true,
         });
-        window.onload = () => {
-            fetch(
-                    `https://api.openweathermap.org/data/2.5/weather?q=Agadir,MA&appid=5d7901792a965dcedc663c8bb663a219`
-                )
-                .then(function (resp) {
-                    console.log(resp);
-                })
-                .then(function (data) {
-                    console.log(data);
-                    document.querySelector(".temp").innerHTML = celcius + '&deg;';
-                })
-                .catch(function () {
-                    // catch any errors
-                });
-        }
 
         let popup = document.querySelector(".popup");
         let email = document.querySelector(".email");
@@ -170,12 +155,20 @@
                 popup.classList.add("hidden");
             }
         };
-        var dateObj = new Date()
-        var day = dateObj.toLocaleString("default", {
-            weekday: "long"
-        })
-        document.querySelector(".day").innerHTML = day;
     </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-47761412-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-47761412-4');
+    </script>
+
 </body>
 
 </html>
