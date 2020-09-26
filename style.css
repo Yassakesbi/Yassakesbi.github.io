@@ -141,6 +141,7 @@ a:visited {
     margin-left: 4em;
     padding-bottom: .3em;
     border-bottom: 3px solid var(--light-purple);
+    color: inherit;
 }
 
 .header .nav a:hover {
