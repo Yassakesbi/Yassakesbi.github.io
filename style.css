@@ -4,6 +4,7 @@
     --red: #F24579;
     --black: #494E4E;
     --grey: #828686;
+    --light-purple: #F6F8FF;
     --light-grey: rgb(231, 231, 231);
 }
 
@@ -43,7 +44,7 @@ h3 {
 }
 
 .btn {
-    background: #F6F8FF;
+    background: var(--light-purple);
     padding: 0.2em 0.5em;
     border-radius: 0.1em;
     color: var(--purple);
@@ -132,7 +133,16 @@ h3 {
 
 .header .nav a {
     margin-left: 4em;
+    padding-bottom: .3em;
+    border-bottom: 3px solid var(--light-purple);
 }
+
+.header .nav a:hover {
+
+    border-bottom: 3px solid var(--purple);
+    transition: all ease-in-out 0.2s;
+}
+
 
 .hero {
     margin-top: 5em;
