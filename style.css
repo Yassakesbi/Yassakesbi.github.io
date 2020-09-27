@@ -8,6 +8,17 @@
     --light-grey: #e7e7e7;
 }
 
+::-moz-selection {
+    /* Code for Firefox */
+    color: var(--purple);
+    background: var(--light-purple);
+}
+
+::selection {
+    color: var(--purple);
+    background: var(--light-purple);
+}
+
 *::after,
 *::before {
     margin: 0;
