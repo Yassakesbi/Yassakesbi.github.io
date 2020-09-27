@@ -32,7 +32,7 @@ html {
 
 
 body {
-    font-family: "SF Pro Text", sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.7;
     color: var(--black);
     padding: 3rem;
@@ -41,9 +41,6 @@ body {
     padding: 3em 10em;
 }
 
-.serif {
-    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
-}
 
 h1 {
     font-size: 1.6em;
@@ -68,6 +65,7 @@ a:visited {
     color: var(--purple);
     transition: all ease-in-out 0.2s;
     margin: 0px 0.2em;
+    font-size: .9em;
 }
 
 .btn:hover {
@@ -238,88 +236,4 @@ a:visited {
     border-top: 1px solid var(--light-purple);
     color: var(--grey);
     padding-top: 1em;
-}
-
-
-/* RESPONSIVE  */
-
-@media screen and (max-width:1500px) {
-
-    body {
-        padding: 3em 5em;
-    }
-}
-
-
-@media screen and (max-width:760px) {
-
-    body {
-        padding: 2em;
-    }
-}
-
-@media screen and (max-width:650px) {
-
-
-    .header {
-        display: block;
-    }
-
-    .header .nav li {
-        margin-top: 1em;
-
-    }
-
-
-    .header .nav li a {
-        margin-right: 2em;
-        margin-left: 0;
-        margin-top: 2em;
-    }
-
-    .hero {
-        margin-top: 3em;
-        text-align: left;
-    }
-
-    .hero .main {
-        font-size: 2em;
-        line-height: 1.5em;
-        font-weight: bolder;
-    }
-
-    .hero .tagline {
-        font-size: 1.2em;
-        margin-top: .5em;
-    }
-
-    .hero .contact {
-        position: relative;
-    }
-
-    .skills,
-        {
-        margin-top: 3em;
-        border-bottom: 1px solid var(--light-grey);
-        padding-bottom: 2em;
-    }
-
-    .skills ul,
-    .works ul {
-        display: block;
-    }
-
-    .skills ul .skill,
-    .works ul .work {
-        width: 100%;
-    }
-
-
-    .popup {
-        left: 100px;
-        z-index: 1000;
-    }
-
-
-
 }
