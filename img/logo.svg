@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
   <line id="Line_7" data-name="Line 7" y2="4" transform="translate(28.5 27.5)" fill="none" stroke="#fff" stroke-width="1"/>
   <rect id="Rectangle_7" data-name="Rectangle 7" width="58" height="58" rx="4" fill="#f6f8ff"/>
-  <text id="Y" transform="translate(16 44)" fill="#566fff" font-size="41" font-family="SFProDisplay-Semibold, SF Pro Display" font-weight="600"><tspan x="0" y="0">Y</tspan></text>
+  <text id="Y" transform="translate(16 44)" fill="#566fff" font-size="41" font-family="Roboto" font-weight="600"><tspan x="0" y="0">Y</tspan></text>
 </svg>
